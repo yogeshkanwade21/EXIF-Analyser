@@ -1,7 +1,83 @@
 # EXIF-Analyser
 A Python script to extract and analyse EXIF data.
 
-## Important Points
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [How to Use](#how-to-use)
+3. [Sample Images](#sample-images)
+4. [ExifTool](#exiftool)
+5. [Questions](#questions)
+6. [Contributors](#contributors)
+
+## Introduction
+* This project is a part of SPPU final year Cyber Security and Digital Forensics course.
+* The main aim behind this project is to dive into the world of digital forensics.
+
+## How to Use
+If you want to try using this project, here is a step-by-step guide. 
+
+<details>
+<summary>
+Step 1: Clone It
+</summary>
+
+- **Using Git** 
+
+Open your terminal and run the following command:
+
+```bash
+git clone https://github.com/yogeshkanwade21/EXIF-Analyser.git
+```
+
+- **Using Download ZIP**
+
+1. Go to the GitHub page of the repository.
+2. Click on the green **Code** button.
+3. In the dropdown menu, select **Download ZIP**.
+
+</details>
+
+---
+<details>
+<summary>
+Step 2: Install Dependencies
+</summary>
+
+Before you begin playing with the source code, you might need to install dependencies just as shown below;
+
+```bash
+pip install -r requirements.txt
+```
+**Note**
+* You might want to consider creating a virtual environment.
+* If you are wondering how to go about generating requirements.txt for your projects, <a href="https://github.com/bndr/pipreqs" target="_blank">try checking this out.</a>
+
+</details>
+
+---
+<details>
+
+<summary>
+Step 3: Run
+</summary>
+
+Navigate to the directory and run the streamlit app.
+
+```bash
+streamlit run script.py
+```
+
+</details>
+
+## Sample Images
+
+* Sample images for testing Exif metadata retrieval can be found <a href="https://github.com/ianare/exif-samples" target="_blank">here.</a>
+
+## ExifTool
+* ExifTool is a free and open-source software program for reading, writing, and manipulating meta information. <a href="https://exiftool.org/" target="_blank">Check it out here.</a>
+
+## Questions
 
 <details>
   <summary>
@@ -198,3 +274,6 @@ Common methods for altering EXIF data include:
   While EXIF data can be a valuable source of information, especially for understanding the context and details of an image, it should be used with caution, and its reliability should be assessed in the context of the specific use case. For critical applications, additional verification methods and a comprehensive analysis of the entire digital asset may be necessary.
 </details>
   
+## Contributors
+* <a href="https://github.com/yogeshkanwade21">Yogesh Kanwade</a>
+* <a href="https://github.com/kshitijkasabekar">Kshitij Kasabekar</a>
